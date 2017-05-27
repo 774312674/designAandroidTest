@@ -40,10 +40,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 OneKt.sumstring(2,6)+" "+"大小: "+OneKt.maxInt(3,4)+"  "+
                 OneKt.initdata()
         );
-
-
-
-
+        Log.i("","");
         EditText et= (EditText) findViewById(R.id.editText_et);
         tl= (TextInputLayout) findViewById(R.id.input_layout);
 
